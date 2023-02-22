@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Web Developer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Aboreto&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="normalize.css" />
+  <link rel="stylesheet" href="style.css" />
+  <!-- FONT ASEWOME-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+  <!-- SCROLL REVEAL -->
+  <script src="https://unpkg.com/scrollreveal"></script>
+  <script>
+    ScrollReveal({ reset: true });
+  </script>
+</head>
+
+<body>
+  <div class="contenedor">
+    <div class="header">
+      <video autoplay muted loop id="myVideo">
+        <source src="img/production ID_4990317.mp4" type="video/mp4">
+      </video>
+      <div class="encabezado">
+        <h1>Hello, I'm <span>Luciano Epifani.</span><br>
+          I'm Front-End web developer.</h1>
+        <a href="#about-me">
+          <button id="btn" onclick="myFunction()">View my work <i class="fa-solid fa-arrow-right"></i></button>
+        </a>
+      </div> <!-- ENCABEZADO -->
+    </div>
+    <div class="navegacion">
+      <ul>
+        <li><a href=""> <span>Home</span></a></li>
+        <li><a class="nav-hover" href="#about-me">About</a></li>
+        <li><a class="nav-hover" href="#proyectos">Proyects</a></li>
+        <li><a class="nav-hover" href="#habilidades">Skills</a></li>
+        <li><a class="nav-hover" href="#contact">Contact</a></li>
+      </ul>
+    </div> <!-- NAVEGATION -->
+    <div class="about" id="about-me">
+      <h2>About me</h2>
+
+    </div> <!-- ABOUT -->
+    <div class="skills">
+      <div class="skills-contenido">
+        <svg class="icono" xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-codesandbox"
+          width="88" height="88" viewBox="0 0 24 24" stroke-width="1.5" stroke="#ffffff" fill="none"
+          stroke-linecap="round" stroke-linejoin="round">
+          <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+          <path d="M20 7.5v9l-4 2.25l-4 2.25l-4 -2.25l-4 -2.25v-9l4 -2.25l4 -2.25l4 2.25z" />
+          <path d="M12 12l4 -2.25l4 -2.25" />
+          <line x1="12" y1="12" x2="12" y2="21" />
+          <path d="M12 12l-4 -2.25l-4 -2.25" />
+          <path d="M20 12l-4 2v4.75" />
+          <path d="M4 12l4 2l0 4.75" />
+          <path d="M8 5.25l4 2.25l4 -2.25" />
+        </svg>
+        <h2>Fast</h2>
+        <p>Fast load times and lag free <br>
+          interaction, my highest priority.</p>
+      </div>
+      <div class="skills-contenido">
+        <svg class="icono" xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-devices" width="88"
+          height="88" viewBox="0 0 24 24" stroke-width="1.5" stroke="#ffffff" fill="none" stroke-linecap="round"
+          stroke-linejoin="round">
+          <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+          <rect x="13" y="8" width="8" height="12" rx="1" />
+          <path d="M18 8v-3a1 1 0 0 0 -1 -1h-13a1 1 0 0 0 -1 1v12a1 1 0 0 0 1 1h9" />
+          <line x1="16" y1="9" x2="18" y2="9" />
+        </svg>
+        <h2>Responsive</h2>
+        <p>My layouts will work on any <br>
+          device, big or small.</p>
+      </div>
+      <div class="skills-contenido">
+        <svg class="icono" xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-rocket" width="88"
+          height="88" viewBox="0 0 24 24" stroke-width="1.5" stroke="#ffffff" fill="none" stroke-linecap="round"
+          stroke-linejoin="round">
+          <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+          <path d="M4 13a8 8 0 0 1 7 7a6 6 0 0 0 3 -5a9 9 0 0 0 6 -8a3 3 0 0 0 -3 -3a9 9 0 0 0 -8 6a6 6 0 0 0 -5 3" />
+          <path d="M7 14a6 6 0 0 0 -3 6a6 6 0 0 0 6 -3" />
+          <circle cx="15" cy="9" r="1" />
+        </svg>
+        <h2>Dynamic</h2>
+        <p>Web site don't was to be static. <br>
+          Page with life it's what I love.</p>
+      </div>
+      <div class="skills-contenido">
+        <svg class="icono" xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-book" width="88"
+          height="88" viewBox="0 0 24 24" stroke-width="1.5" stroke="#ffffff" fill="none" stroke-linecap="round"
+          stroke-linejoin="round">
+          <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+          <path d="M3 19a9 9 0 0 1 9 0a9 9 0 0 1 9 0" />
+          <path d="M3 6a9 9 0 0 1 9 0a9 9 0 0 1 9 0" />
+          <line x1="3" y1="6" x2="3" y2="19" />
+          <line x1="12" y1="6" x2="12" y2="19" />
+          <line x1="21" y1="6" x2="21" y2="19" />
+        </svg>
+        <h2>Readable</h2>
+        <p>Clean and readable code it's one <br>
+          of the most important things.</p>
+      </div>
+    </div> <!-- SKILLS -->
+        <div id="yo">
+          <h2>
+            I'm passionate about programming. I'm a self-taught programmer. I've very good predisposition, I care about writing
+            clean and readable code and I really like learn new things. I'm currently looking for the right opportunity to work in a
+            enviorment that will help me progress in a Front-End developer role.
+          </h2>
+        <div class="lenguajes">
+            <div class="lenguaje">
+              <h5 class="primero">HTML</h5>
+              <p class="procentaje">80%</p>
+            </div>
+            <div class="lenguaje">
+              <h5 class="primero">CSS</h5>
+              <p class="procentaje-1">70%</p>
+            </div>
+            <div class="lenguaje">
+              <h5 class="primero">JavaScript</h5>
+              <p class="procentaje-2">60%</p>
+            </div>
+            <div class="lenguaje">
+              <h5 class="primero">Angular</h5>
+              <p class="procentaje-4">40%</p>
+            </div>
+            <div class="lenguaje">
+              <h5 class="primero">Java</h5>
+              <p class="procentaje-4">40%</p>
+            </div>
+            <div class="lenguaje">
+              <h5 class="primero">Python</h5>
+              <p class="procentaje-4">40%</p>
+            </div>
+        </div>
+      </div>
+    <div id="proyectos" class="proyects">
+      <div class="grid">
+        <h2>Projects</h2>
+        <p>These are some of my projects:</p>
+      </div>
+      <!--GRID-->
+      <div class="imagenes">
+        <img class="img1" src="img/Captura de pantalla 2023-02-16 a las 16.33.17.png" alt="">
+        <img class="img1" src="img/Captura de pantalla 2023-01-27 a las 9.37.25.png" alt="">
+        <img class="img1" src="img/Captura de pantalla 2023-02-22 a las 10.36.46.png" alt="">
+        <img class="img1" src="img/Captura de pantalla 2023-02-14 a las 14.32.46.png" alt="">
+      </div>
+      <!--IMÁGENES-->
+    </div>
+    <!--PROYECTS-->
+
+    <!--FORMULARIO-->
+
+    <section>
+      <form class="formulario">
+        <fieldset>
+          <div class="campos">
+            <h2 id="contact">CONTACT</h2>
+            <div class="campo-nombre">
+              <input class="formu" type="text" placeholder="Nombre">
+            </div>
+
+            <div class="campo-correo">
+              <input type="email" placeholder="Email">
+            </div>
+
+            <div class="campo-mensaje">
+              <textarea cols="100" rows="10" placeholder="Mensaje"></textarea>
+            </div>
+          </div> <!-- Cierre campos-->
+
+          <button class="boton enviar" type="submit" value="Enviar">Submit</button>
+        </fieldset>
+      </form>
+
+    </section>
+
+  </div> <!-- CONTENEDOR -->
+
+
+
+  <script src="main.js">
+
+  </script>
+
+</body>
+
+</html>

@@ -1,0 +1,387 @@
+
+/* GLOBAL */
+
+body{
+    background-color: #000000;
+        background-image: url("data:image/svg+xml,%3Csvg width='16' height='20' viewBox='0 0 16 20' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='%23b12b2b' fill-opacity='0.1' fill-rule='evenodd'%3E%3Cpath d='M8 0v20L0 10M16 0v10L8 0M16 10v10H8'/%3E%3C/g%3E%3C/svg%3E");
+}
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+
+*,*:before,*:after {
+    box-sizing: inherit;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+
+.contenedor{
+    width: 100%;
+    margin: 0 auto;
+}
+
+
+/* TITLE */
+
+.encabezado{
+    position: absolute;
+    color: #f1f1f1;
+    bottom: 40rem;
+    left: 50rem;
+    font-size: 2.7rem;
+    font-family: 'Raleway', sans-serif;
+}
+
+span{
+    color: #14aca7;
+}
+
+/* BOTON */
+
+#btn {
+    font-size: 18px;
+    padding: 10px;
+    border: solid #fff 0.2rem;
+    background: #000;
+    color: #fff;
+    cursor: pointer;
+}
+
+#btn:hover {
+    background: #ddd;
+    color: black;
+}
+
+/* VIDEO */
+
+#myVideo {
+    width: 100%;
+    height: 80%;
+}
+
+.header {
+    position: relative;
+    margin-bottom: -10px;
+}
+
+/* NAVEGATION */      
+
+
+.navegacion{
+    position: static;
+    top: 0;
+    padding: 1.5rem;
+    background-color: rgb(28, 97, 99);
+    margin-bottom: 5rem;
+    
+}
+
+.navegacion ul{
+    display: flex;
+    justify-content: center;
+    padding-top: 1rem;
+    gap: 10rem;
+    margin-right: 50rem;
+}
+
+.navegacion a{
+    text-transform: uppercase;
+    font-family: 'Raleway' , sans-serif;
+    font-size: 2rem;
+    color: #f1f1f1;
+    padding: 1.5rem;
+}
+
+.nav-hover:hover{
+    background-color: #14aca7;
+}
+
+/* ABOUT */
+
+
+.about {
+    color: #fff;
+}
+
+.about h2{
+    font-family: 'Aboreto', cursive;
+    font-size: 4rem;
+    text-align: center;
+    padding: 2rem;
+    padding-top: 7rem;
+    margin: 0 auto;
+}
+
+.about p {
+    margin-top: 10rem;
+    font-size: 2.2rem;
+    margin-bottom: 8rem;
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    font-weight: bold;
+}
+
+
+/* SKILLS */
+
+.skills{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    text-align: center;
+    margin: 0 auto;
+    padding-top: 4rem;
+    color: #fff;
+}
+
+.skills-contenido{
+    text-align: center;
+}
+
+.skills-contenido p{
+    font-size: 1.7rem;
+    font-family: 'Quicksand', sans-serif;
+    margin-bottom: 5rem;
+}
+
+.skills-contenido h2{
+    font-size: 3rem;
+    font-family: 'Quicksand', sans-serif;
+    padding: 2rem;
+}
+
+.icono{
+    background-color: #14aca7;
+    padding: 2rem;
+    border-radius: 2rem;
+    border: solid 0.3rem black;
+}
+
+
+/* LENGUAJES */
+
+
+#yo{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.lenguajes{
+    text-align: center;
+    width: 100%;
+    
+}
+
+.procentaje{
+    color: #9a9696;
+    font-size: 2rem;
+    background-color: #e0dddd;
+    padding: 0.8rem 1rem 0.9rem 10rem;
+}
+
+.procentaje-1{
+    color: #9a9696;
+    font-size: 2rem;
+    background-color: #e0dddd;
+    padding: 0.9rem 1rem 0.9rem 10rem;
+}
+
+.procentaje-2{
+    color: #9a9696;
+    font-size: 2rem;
+    background-color: #e0dddd;
+    padding: 0.9rem 1rem 0.9rem 20rem;
+}
+
+.procentaje-3{
+    color: #9a9696;
+    font-size: 2rem;
+    background-color: #e0dddd;
+    padding: 0.9rem 1rem 0.9rem 35rem;
+}
+
+.procentaje-4{
+    color: #9a9696;
+    font-size: 2rem;
+    background-color: #e0dddd;
+    padding: 0.9rem 1rem 0.9rem 40rem;
+}
+
+
+
+.lenguaje{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 2rem;
+    margin: 2rem 0rem 0rem 0rem;
+    background-color: #135b59;
+}
+
+.primero{
+    border: 0.1rem solid #fff;
+    text-align: center;
+    width: 15rem;
+    color: #fff;
+    background-color: #14aca7;
+    padding: 0.8rem 3rem 1rem 3rem;
+    font-family: 'Quicksand', sans-serif;
+}
+
+
+
+/* PROYECTS */
+
+.proyects{
+    margin: 30rem 15rem 0rem 15rem;
+    display: flex;
+    justify-content: center;
+    font-size: 3rem;
+    font-weight: 400;
+    gap: 20rem;
+    font-family: 'Aboreto', cursive;
+    color: #fff;
+}
+
+.proyects p{
+    color: #14aca7;
+}
+
+.imagenes{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 3rem;
+}
+
+.img1{
+    border: 0.3rem solid #fff;
+    object-fit: cover;
+}
+
+.imagenes img{
+    width: 25rem;
+    height: 30rem;
+   
+}
+/* FORMULARIO */
+
+.formulario h2{
+    font-size: 2.5rem;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.formulario{
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-top: 30rem;
+    margin-bottom: 5rem;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.campo-nombre{
+    text-align: center;
+}
+.campo-nombre label{
+    font-size: 2rem;
+}
+
+.campo-nombre input{
+    border-radius: 0.5rem;
+    padding: 0.5rem;
+    margin: 1rem;
+    padding: 1.5rem 40rem 1.5rem 1rem;
+    font-size: 1.5rem;
+    border: 0.2rem solid black;
+}
+
+
+.campo-correo {
+    text-align: center;
+}
+
+.campo-correo label {
+    font-size: 2rem;
+    text-align: start;
+}
+
+.campo-correo input {
+    border-radius: 0.5rem;
+    padding: 0.5rem;
+    margin: 1rem;
+    padding: 1.5rem 40rem 1.5rem 1rem;
+    font-size: 1.5rem;
+    border: 0.2rem solid black;
+}
+
+
+.campo-mensaje {
+    display: inline-block;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    text-align: center;
+}
+
+.campo-mensaje label {
+    font-size: 2rem;
+}
+
+.campo-mensaje textarea {
+    padding: 0.5rem;
+    margin: 1rem;
+    border: 0.2rem solid black;
+    border-radius: 0.5rem;
+}
+
+.boton{
+    color: #fff;
+    text-align: center;
+    margin-left: 47rem;
+    padding: 1rem 2rem 1rem 2rem;
+    font-size: 1.5rem;
+    font-family: 'Oswald', sans-serif;
+    border-radius: 0.5rem;
+    background-color: #14aca7;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+
+fieldset{
+    padding: 8rem 10rem 8rem 10rem;
+    border-radius: 1rem;
+    background-image: url(img/pexels-alexis-ricardo-alaurin-13374667.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 80rem;
+}
+
+input{
+    display: flex;
+    padding: 0;
+}
+
+
+::placeholder{
+    font-size: 2rem;
+
+}
+
+#yo{
+    display: flex;
+    width: 50%;
+    margin: 0 auto;
+    gap: 5rem;
+}

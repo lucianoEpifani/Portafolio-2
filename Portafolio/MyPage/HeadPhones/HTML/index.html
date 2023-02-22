@@ -1,0 +1,473 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>First Page Web Developer</title>
+    <!-- GOOGLE  FONT -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital@1&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Crete+Round&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@100;700&display=swap" rel="stylesheet">
+    <!-- FONT  AWESOME-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    <!-- NORMALIZE-->
+    <link rel="preload" href="../CSS/styles.css" as="style">
+    <link rel="stylesheet" href="../CSS/styles.css">
+    <!-- CSS -->
+    <link rel="preload" href="../CSS/normalize.css" as="style">
+    <link href="../CSS/normalize.css" rel="stylesheet">
+
+
+</head>
+
+<body>
+    <div class="contenedor">
+        <div class="contenedor-indice">
+            <div class="contenedor-indice__contacto">
+                <a href="tel:658694802">Contacto: +34 658694802</a>
+                <i class="fas fa-phone"></i>
+            </div>
+            <div class="middle">
+                <h2>
+                    Grab Upto 40% Off on Selected Headphones
+                </h2>
+                <div class="vl">
+                    <a href="">Shop now</a>
+                </div>
+
+            </div>
+            <div class="cambio">
+                <ul>
+                    <ul>
+                        <li><a href="">About<i class=""></i></a>
+                        </li>
+                        <li>
+                            <a href="">Services<i class=""></i></a>
+                        </li>
+                    </ul>
+            </div>
+            <p>
+
+            </p>
+        </div>
+        <header class="navegador">
+            <div class="title">
+                <h1>HeadPhones<span>Shop</span></h1>
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-headphones" width="36"
+                    height="36" viewBox="0 0 24 24" stroke-width="1" stroke="#8EA7E9" fill="none" stroke-linecap="round"
+                    stroke-linejoin="round">
+                    <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                    <rect x="4" y="13" rx="2" width="5" height="7" />
+                    <rect x="15" y="13" rx="2" width="5" height="7" />
+                    <path d="M4 15v-3a8 8 0 0 1 16 0v3" />
+                </svg>
+            </div>
+            <nav class="navegacion-principal">
+                <ul>
+                    <li><a href="#productos">Headphones</a></li>
+                    <li><a href="">What's New</a></li>
+                    <li><a href="#descuento">Discount</a></li>
+                    <li><a href="#console">Consoles</a></li>
+                </ul>
+            </nav>
+            <div class="busqueda">
+                <input type="text" class="buscador" placeholder="Search">
+                <a href="" class="btn">
+                    <i class="fa fa-search"></i>
+                </a>
+            </div>
+            <div class="usuario">
+                <div class="log">
+                    <a href="">Login
+                    </a>
+                    <i class="fa fa-user"></i>
+                </div>
+                <div class="log">
+                    <a href="">
+                        Sign up
+                    </a>
+                    <i class="fa fa-sign-in"></i>
+                </div>
+            </div>
+        <div class="container-icon">
+            <div class="conteiner-cart-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
+                    class="icon-cart" >
+                    <path stroke-linecap="round" stroke-linejoin="round"
+                        d="M15.75 10.5V6a3.75 3.75 0 10-7.5 0v4.5m11.356-1.993l1.263 12c.07.665-.45 1.243-1.119 1.243H4.25a1.125 1.125 0 01-1.12-1.243l1.264-12A1.125 1.125 0 015.513 7.5h12.974c.576 0 1.059.435 1.119 1.007zM8.625 10.5a.375.375 0 11-.75 0 .375.375 0 01.75 0zm7.5 0a.375.375 0 11-.75 0 .375.375 0 01.75 0z" />
+                </svg>
+                <div class="count-products">
+                    <span id="contador-productos">0</span>
+                </div>
+            </div>
+            <div class="container-cart-products hidden-cart">
+                <div class="row-product">
+                    <div class="cart-product">
+                        <div class="info-cart-product">
+                            <span class="cantidad-producto-carrito"></span>
+                            <p class="titulo-producto-carrito"></p>
+                            <span class="precio-producto-carrito"></span>
+                        </div>
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                            stroke="currentColor" class="icon-close">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
+                        </svg>
+                    </div>
+                </div>
+                <div class="cart-total">
+                    <h3>Total:</h3>
+                    <span class="total-pagar">0$</span>
+                </div>
+            </div>
+        </div>
+    </header>
+        <section id="descuento">
+            <div class="comprar">
+                <h2>Grab Upto 40% Off On <br> Selected Headphones</h2>
+                <button>
+                    <a href="">Buy Now</a>
+                </button>
+            </div>
+            <div class="produccion">
+                <div class="producto alinear">
+                    <img src="../img/airpods-removebg-preview.png" alt="">
+                    <h2 class="producto-nombre-1">AirPods(2019)</h2>
+                    <p class="price"> <del>109.99$</del></p>
+                    <p class="price">69.99$</p>
+                    <div class="star">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                    </div>
+                    <button class="add-cart">
+                        Add to Cart
+                    </button>
+                </div>
+                <div class="producto alinear">
+                    <img src="../img/JBL_TUNE_510BT_Product Image_Hero_Black.webp" alt="">
+                    <h2 class="producto-nombre-1">JBL Tune 510BT</h2>
+                    <p class="price"><del>95.99$</del></p>
+                    <p class="price">75.99</p>
+                    <div class="star">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                    </div>
+                    <button class="add-cart">
+                        Add to Cart
+                    </button>
+                </div>
+            <div class="producto alinear">
+                <img src="../img/DDJ-400-removebg-preview.png" alt="">
+                <h2 class="producto-nombre-1">DDJ-400</h2>
+                <p class="price"><del>400.00$</del></p>
+                <p class="price">330.00$</p>
+                <div class="star">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                </div>
+                <button class="add-cart">
+                    Add to Cart
+                </button>
+            </div>
+            <div class="producto alinear">
+                <img src="../img/DDJ-FLX6_SXJ-removebg-preview.png" alt="">
+                <h2 class="producto-nombre-1">FLX600</h2>
+                <p class="price"><del>700.00$</del></p>
+                <p class="price">550.00$</p>
+                <div class="star">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                </div>
+                <button class="add-cart">
+                    Add to Cart
+                </button>
+            </div>
+        </div>
+        </section>
+            <div id="productos" class="foryou fondo">
+                <h2>New <span>Headphones</span></h2>
+                <p>Headphone collection New Modern Design</p>
+            </div>
+            <div class="produccion">
+                <div class="producto">
+                        <img src="../img/sony__1_-removebg-preview (1).png" alt="">
+                        <h2 class="producto-nombre">Studio3 Wirelees</h2>
+                        <p class="price">159.99$</p>
+                        <div class="star">
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                        </div>
+                        <button class="add-cart">
+                            Add to Cart
+                        </button>
+                </div>
+                <div class="producto">
+                    <img src="../img/airpods-removebg-preview.png" alt="">
+                        <h2 class="producto-nombre">AirPods(2019)</h2>
+                        <p class="price">109.99$</p>
+                        <div class="star">
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                        </div>
+                        <button class="add-cart">
+                            Add to Cart
+                        </button>
+                </div>
+                <div class="producto">
+                    <img src="../img/JBL_TUNE_510BT_Product Image_Hero_Black.webp" alt="">
+                        <h2 class="producto-nombre">JBL Tune 510BT</h2>
+                        <p class="price">95.99$</p>
+                        <div class="star">
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                        </div>
+                        <button class="add-cart">
+                            Add to Cart
+                        </button>
+                </div>
+                <div class="producto">
+                    <img src="../img/JBL_TUNE_510BT_Product Image_Hero_Rose.webp" alt="">
+                    <h2 class="producto-nombre">JBL Tune 310BT</h2>
+                    <p class="price">125.00$</p>
+                    <div class="star">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                    </div>
+                    <button class="add-cart">
+                        Add to Cart
+                    </button>
+                </div>
+                <div class="producto">
+                    <img src="../img/asdasdasd.png" alt="">
+                    <h2 class="producto-nombre">Soundcore Life30</h2>
+                    <p class="price">135.99$</p>
+                    <div class="star">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                    </div>
+                    <button class="add-cart">
+                        Add to Cart
+                    </button>
+                </div>
+                <div class="producto">
+                    <img src="../img/MK2J3_AV2_osoryy.png" alt="">
+                    <h2 class="producto-nombre">Beats Solo3</h2>
+                    <p class="price">85.99$</p>
+                    <div class="star">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                    </div>
+                    <button class="add-cart">
+                        Add to Cart
+                    </button>
+                </div>
+                <div class="producto">
+                        <img src="../img/marquita2-removebg-preview (1).png" alt="">
+                        <h2 class="producto-nombre">Studio3 Blanco</h2>
+                        <p class="price">155.99$</p>
+                        <div class="star">
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                        </div>
+                        <button class="add-cart">
+                            Add to Cart
+                        </button>
+                </div>
+                <div class="producto">
+                    <img src="../img/31uR3a5sr7L-removebg-preview.png" alt="">
+                    <h2 class="producto-nombre">Vietra PRO W</h2>
+                    <p class="price">45.99$</p>
+                    <div class="star">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                    </div>
+                    <button class="add-cart">
+                        Add to Cart
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <div class="fondo-2">
+            <div id="console" class="foryou-2">
+                <h2>Best <span>Consoles</span> To Become a Pro DJ</h2>
+                <p>New console collection</p>
+            </div>
+
+            <div class="produccion">
+                <div class="producto">
+                    <img src="../img/MCX8000-removebg-preview.png" alt="">
+                    <h2 class="producto-nombre">MCX8000</h2>
+                    <p class="price">1450.00$</p>
+                    <div class="star">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                    </div>
+                    <button class="add-cart">
+                        Add to Cart
+                    </button>
+                </div>
+                <div class="producto">
+                    <img src="../img/DJ_Pioneer_con_pantalla_XDJRR-removebg-preview.png" alt="">
+                    <h2 class="producto-nombre">XDJRR</h2>
+                    <p class="price">950.00$</p>
+                    <div class="star">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                    </div>
+                    <button class="add-cart">
+                        Add to Cart
+                    </button>
+                </div>
+                <div class="producto">
+                    <img src="../img/DDJ-400-removebg-preview.png" alt="">
+                    <h2 class="producto-nombre">DDJ-400</h2>
+                    <p class="price">350.00$</p>
+                    <div class="star">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                    </div>
+                    <button class="add-cart">
+                        Add to Cart
+                    </button>
+                </div>
+                <div class="producto">
+                    <img src="../img/DDJ-FLX6_SXJ-removebg-preview.png" alt="">
+                    <h2 class="producto-nombre">FLX600</h2>
+                    <p class="price">700.00$</p>
+                    <div class="star">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                    </div>
+                    <button class="add-cart">
+                        Add to Cart
+                    </button>
+                </div>
+                <div class="producto">
+                    <img src="../img/MCX8000-removebg-preview.png" alt="">
+                    <h2 class="producto-nombre">MCX8000</h2>
+                    <p class="price">1450.00$</p>
+                    <div class="star">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                    </div>
+                    <button class="add-cart">
+                        Add to Cart
+                    </button>
+                </div>
+                <div class="producto">
+                    <img src="../img/DJ_Pioneer_con_pantalla_XDJRR-removebg-preview.png" alt="">
+                    <h2 class="producto-nombre">XDJRR</h2>
+                    <p class="price">950.00$</p>
+                    <div class="star">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                    </div>
+                    <button class="add-cart">
+                        Add to Cart
+                    </button>
+                </div>
+                <div class="producto">
+                    <img src="../img/DDJ-400-removebg-preview.png" alt="">
+                    <h2 class="producto-nombre">DDJ-400</h2>
+                    <p class="price">350.00$</p>
+                    <div class="star">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                    </div>
+                    <button class="add-cart">
+                        Add to Cart
+                    </button>
+                </div>
+                <div class="producto">
+                    <img src="../img/DDJ-FLX6_SXJ-removebg-preview.png" alt="">
+                    <h2 class="producto-nombre">FLX600</h2>
+                    <p class="price">700.00$</p>
+                    <div class="star">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                    </div>
+                    <button class="add-cart">
+                        Add to Cart
+                    </button>
+                </div>
+            </div> 
+    </div>
+
+    <script src="/JS/main.js" ></script>
+
+</body>
+</html>
